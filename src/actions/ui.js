@@ -13,3 +13,15 @@ export const unSetError = () => {
         type: types.uiUnSetError
     }
 }
+
+export const startLoading = () => {
+    return {
+        type: types.uiStartLoading
+    }
+}
+
+export const finishLoading = () => {
+    return {
+        type: types.uiFinishLoading
+    }
+}
